@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="13.000115cm"
+   height="10.601154cm"
+   viewBox="0 0 368.50705 300.50496"
+   version="1.1"
+   id="svg92"
+   sodipodi:docname="marelli-logo.svg"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs96" />
+  <sodipodi:namedview
+     id="namedview94"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="cm"
+     showgrid="false"
+     inkscape:zoom="0.39026042"
+     inkscape:cx="253.67676"
+     inkscape:cy="204.99133"
+     inkscape:window-width="1420"
+     inkscape:window-height="708"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg92" />
+  <title
+     id="title66">marelli-logo</title>
+  <g
+     id="g90"
+     transform="translate(-70.866,-76.521)">
+    <g
+       id="g72">
+      <polygon
+         points="255.118,182.899 70.866,76.521 70.866,289.277 130.104,255.076 130.104,179.124 195.88,217.1 "
+         fill="#009cde"
+         id="polygon68" />
+      <polygon
+         points="255.118,182.899 439.37,76.521 439.37,289.277 380.132,255.076 380.132,179.124 314.356,217.1 "
+         fill="#009cde"
+         id="polygon70" />
+    </g>
+    <g
+       id="g88">
+      <path
+         d="m 70.866,319.146 h 14.048 l 15.572,24.473 15.572,-24.473 H 130.1 v 57.876 h -12.942 v -37.25 l -16.672,24.72 h -0.339 l -16.5,-24.474 v 37 H 70.866 Z"
+         fill="#002855"
+         id="path74" />
+      <path
+         d="m 162.388,319.146 h 11.984 l 25.32,57.876 H 186.1 l -5.221,-12.116 h -25.352 l -5.21,12.116 h -13.249 z m 13.852,34.516 -8.031,-19.22 -8.039,19.22 z"
+         fill="#002855"
+         id="path76" />
+      <path
+         d="m 206.765,319.146 h 27.414 c 7.625,0 13.537,2.067 17.477,5.87 3.341,3.224 5.139,8 5.139,13.455 v 0.164 c 0,9.345 -5.224,15.441 -12.849,18.169 l 14.65,20.218 h -15.42 l -12.852,-18.069 h -10.366 v 18.069 h -13.193 z m 26.559,28.563 c 6.423,0 10.108,-3.532 10.108,-8.413 v -0.164 c 0,-5.457 -3.94,-8.5 -10.366,-8.5 h -13.108 v 17.073 z"
+         fill="#002855"
+         id="path78" />
+      <path
+         d="M 268.341,319.146 H 312.9 v 11.326 h -31.646 v 11.74 h 27.853 v 11.33 H 281.254 V 365.7 h 32.071 v 11.326 h -44.984 z"
+         fill="#002855"
+         id="path80" />
+      <path
+         d="m 324.774,319.146 h 13 v 46.3 h 29.006 v 11.576 h -42.006 z"
+         fill="#002855"
+         id="path82" />
+      <path
+         d="m 376,319.146 h 13 v 46.3 h 29.01 v 11.576 H 376 Z"
+         fill="#002855"
+         id="path84" />
+      <path
+         d="m 426.373,319.146 h 13 v 57.876 h -13 z"
+         fill="#002855"
+         id="path86" />
+    </g>
+  </g>
+  <metadata
+     id="metadata256">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>marelli-logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,2 +1,94 @@
 extend ../components/template.pug
 block content
+    .content
+        section(data-bs-ride="carousel").content__slides.carousel.slide.carousel-fade#carouselExampleFade
+            .carousel-inner
+                .carousel-item.active
+                    picture.carousel-item__img
+                        source(media="(min-width:1110px)" srcset="images/slidePallets-1920x466.jpg")
+                        source(media="(min-width:768px)" srcset="images/slidePallets-1028x466.jpg")
+                        img(src="/images/indexMobile.jpg" alt="Imagen de mujer con blusa amarilla").d-block.w-100
+                    .slideContent
+                        .slideContent__box#slide1Content
+                            h1 #[strong Financiamos] #[br] todas tus  #[br] operaciones #[br]
+                            .slideContent__box__link
+                                a(href="/empresa.html") Más información
+                                img(src="/images/icons/iconmonstr-arrow-67.svg", alt="Icono de flecha")
+                .carousel-item
+                    picture.carousel-item__img
+                        source(media="(min-width:1110px)" srcset="images/slidePallets-1920x466.jpg")
+                        source(media="(min-width:768px)" srcset="images/slidePallets-1028x466.jpg")
+                        img(src="/images/empresaMobile.jpg" alt="Imagen de un montacargas").d-block.w-100
+                    .slideContent
+                        .slideContent__box#slide2Content
+                            p #[strong CONSEGUIMOS TODO] #[br] lo que tu empresa #[br] necesita  
+                            .slideContent__box__link#linkEmpresa
+                                a(href="/empresa.html") Nuestros Servicios
+                                img(src="/images/icons/iconmonstr-arrow-67.svg", alt="Icono de flecha")
+                .carousel-item
+                    picture.carousel-item__img
+                        source(media="(min-width:1110px)" srcset="images/slidePallets-1920x466.jpg")
+                        source(media="(min-width:768px)" srcset="images/slidePallets-1028x466.jpg")
+                        img(src="/images/contactoMobile.jpg" alt="Imagen rompecabezas").d-block.w-100
+                    .slideContent
+                        .slideContent__box#slide3Content
+                            p Hagamos #[br]  #[strong SINERGIA] #[br] 
+                            .slideContent__box__link
+                                a(href="/contacto.html") Contáctanos
+                                img(src="/images/icons/iconmonstr-arrow-67.svg", alt="Icono de flecha")        
+            button(type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev").carousel-control-prev.hidden
+                span(aria-hidden="true").carousel-control-prev-icon.hidden
+                span.visually-hidden.hidden Previous
+            button(type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next").carousel-control-next.hidden
+                span(aria-hidden="true").carousel-control-next-icon.hidden
+                span.visually-hidden.hidden Next
+        section.content__proveedores 
+            h2.title ¿Proveedores?
+            p#subtitle #[strong Nosotros nos encargamos]
+            .content__proveedores__ayudamos 
+                p #[strong Te ayudamos] con la mediación de pago a tus #[strong proveedores de uso único o esporádicos,] abastecimiento de servicios, productos y mucho más...
+                .content__proveedores__ayudamos__link
+                    a(href="/contacto.html") Contáctanos
+                    img(src="/images/icons/iconmonstr-arrow-67.svg", alt="ícono de flecha")
+        section.content__beneficios 
+            h2 #[strong Beneficios]
+            .content__beneficios__items
+                .content__beneficios__items__item 
+                    img(src="/images/icons/iconmonstr-marketing-2.svg", alt="")
+                    p.content__beneficios__items__item-title Centralizamos soluciones 
+                    p.content__beneficios__items__item-txt Todas tus operaciones con un solo proveedor.
+                .content__beneficios__items__item 
+                    img(src="/images/icons/iconmonstr-delivery-5.svg")
+                    p.content__beneficios__items__item-title Entregamos a domicilio 
+                    p.content__beneficios__items__item-txt Olvídate de las molestas recolecciones, nosotros te lo llevamos.
+                .content__beneficios__items__item 
+                    img(src="/images/icons/iconmonstr-credit-card-10.svg", alt="")
+                    p.content__beneficios__items__item-title Realizamos los pagos 
+                    p.content__beneficios__items__item-txt Déjanos a nosotros el pago de los servicios, productos o proveedores que tú necesitas. 
+                .content__beneficios__items__item 
+                    img(src="/images/icons/iconmonstr-coin-10.svg", alt="")
+                    p.content__beneficios__items__item-title Pagos en diferentes divisas 
+                    p.content__beneficios__items__item-txt Podemos realizar los pagos en diferentes monedas.
+                .content__beneficios__items__item 
+                    img(src="/images/icons/iconmonstr-delivery-8.svg", alt="")
+                    p.content__beneficios__items__item-title Atención personalizada 
+                    p.content__beneficios__items__item-txt Nos empeñamos en entender tu necesidad, es por eso que debemos manejarla con el cuidado necesario. Te atendemos personalmente y te ofrecemos soluciones puntuales. 
+                .content__beneficios__items__item 
+                    img(src="/images/icons/iconmonstr-delivery-9.svg", alt="")
+                    p.content__beneficios__items__item-title Estamos contigo 24/7 
+                    p.content__beneficios__items__item-txt Si tienes una urgencia, nosotros te ayudamos. Ofrecemos soluciones rápidas y garantizadas.
+        section.content__casosExito 
+            h2.title Casos de éxito 
+            .content__casosExito__logos 
+                img(src="/images/logotipos/Marelli.jpg", alt="Logotipo de Marelli")
+                img(src="/images/logotipos/exedy.jpg", alt="Logotipo de Exedy")
+                img(src="/images/logotipos/PPG.jpg", alt="Logotipo de PPG")
+                img(src="/images/logotipos/Eaton.jpg", alt="Logotipo de Eaton")
+                img(src="/images/logotipos/uaa-logo.jpg", alt="Logotipo de la UAA")
+                img(src="/images/logotipos/logoAgsGob.jpg", alt="Logotipo del gobierno del Edo. de Ags.")
+                img(src="/images/logotipos/ayuntamientoAgs.jpg", alt="Logotipo del Ayuntamiento de la Ciudad de Ags.")
+                
+
+        
+
+

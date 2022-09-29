@@ -1,15 +1,16 @@
 @import "globals.less";
 @import "variables.less";
 .contacto__form{
-    font-family: @font-family !important;
+    font-family: @font-family2 !important;
     display: flex;
     .form{
-        background-color: @color-primary;
         width: 375px;
         max-width: 400px;
-        margin: auto;
-        border-radius: 1em;
+        margin: 0;
         padding: 3.5em 1.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         &__title{
             text-align: center;
             font-size: 1.9rem;
@@ -28,23 +29,27 @@
                outline: none;
                border: none;
                border: 1px solid #bbb0b0;
-               border-radius: 0.4em;
+               border-radius: 1rem;
+               width: 275px;
            }
            &__input--message{
                resize: none;
                padding: 1.8em 1em;
                margin-bottom: .5em;
+               height: 235px;
            }
            &__cta{
                font-family: inherit;
-               background-color: @color-secondary;
+               background-color: @color-primary;
                color: @color-white;
                border: none;
                font-weight: @font-light;
                padding: .7em 0;
-               border-radius: .4em;
+               border-radius: 1rem;
+               width: 110px;
                cursor: pointer;
                font-weight: @font-semibold;
+               margin: 0 auto;
 
            }
         }

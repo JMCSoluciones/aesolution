@@ -1,30 +1,30 @@
 extend ../components/template.pug
 block content
-    .content
-        section.content__header
-            img(src="", alt="Imagen Principal")
-            h1 Conseguimos todo lo que tu empresa necesita.
-        section.content__somos
-            h2 Quienes Somos 
+    .content-empresa
+        section.content-empresa__header
+            img(src="/images/empresaMobile.jpg", alt="Imagen Principal").img-fluid
+            h1 #[strong CONSEGUIMOS TODO] #[br] lo que tu empresa necesita.
+        section.content-empresa__somos
+            h2.title Quiénes Somos 
             p Somos una Comercializadora dedicada a vincular empresas de todo tipo, gestionando y localizando productos y servicios de acuerdo a tus necesidades particulares y/o empresariales.
-        section.content__servicios  
-            img(src="", alt="")
-            h2 Nuestros Servicios
-            .content__servicios__items
-                .content__servicios__items__item#service1
-                    p.content__servicios__items-title Mediación de pagos 
-                    p.content__servicios__items-text Nos encargamos de pagarle a tus proveedores, principalmente los esporádicos, los que no tienes incluidos en tu panel.
-                .content__servicios__items__item#service2
-                    p.content__servicios__items-title ¿Necesitas algo? #[strong LO ENCONTRAMOS POR TI]
-                    p.content__servicios__items-text #[strong AHORRA TIEMPO VALIOSO] Déjanos la busqueda de los productos o servicios que necesitas, podemos ofrecerte las mejores opciones. #[strong Al final tú decides.]
-                .content__servicios__items__item#service3
-                    p.content__servicios__items-title #[strong Organizamos tu evento] Corporativo o Social
-                    p.content__servicios__items-text #[strong Que la experiencia de tus invitados sea inolvidable.] Nosotros nos encargamos de toda la organización.
-        section.content__banner
-            img(src="", alt="Imagen de hombre sonriendo")
-            p Ofreciendo soluciones 
-            p DESDE 
-            p 2013 
+        section.content-empresa__servicios  
+            img(src="/images/serviciosMobile.jpg", alt="Imagen de un casco").img-fluid
+            h2 Nuestros #[strong Servicios]
+            .content-empresa__servicios__items
+                .content-empresa__servicios__items__item#service1
+                    p.content-empresa__servicios__items__item-title #[strong Mediación de pagos ]
+                    p.content-empresa__servicios__items__item-text Nos encargamos de pagarle a tus proveedores, principalmente los esporádicos, los que no tienes incluidos en tu panel.
+                .content-empresa__servicios__items__item#service2
+                    p.content-empresa__servicios__items__item-title ¿Necesitas algo? #[br] #[strong LO ENCONTRAMOS POR TI]
+                    p.content-empresa__servicios__items__item-text #[strong Ahorra tiempo valioso.] Déjanos la busqueda de los productos o servicios que necesitas, podemos ofrecerte las mejores opciones. #[br] #[strong Al final tú decides.]
+                .content-empresa__servicios__items__item#service3
+                    p.content-empresa__servicios__items__item-title #[strong Organizamos tu evento] Corporativo o Social
+                    p.content-empresa__servicios__items__item-text #[strong Que la experiencia de tus invitados sea inolvidable.] Nosotros nos encargamos de toda la organización.
+        section.content-empresa__banner
+            img(src="/images/solucionesMobile.jpg", alt="Imagen de hombre sonriendo").img-fluid
+            .content-empresa__banner-text
+                p Ofreciendo soluciones 
+                h2 DESDE #[br] #[strong 2013] 
 
 
 

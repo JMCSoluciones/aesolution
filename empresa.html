@@ -7,7 +7,7 @@
     <title>AE Solution</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Raleway:wght@100;300;400;600;800&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600&amp;display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/tablet.css" media="screen and (min-width: 768px)"/>
     <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 1024px)"/>
@@ -36,53 +36,54 @@
         </section>
       </nav>
     </header>
-    <div class="content">
-      <section class="content__header"><img src="" alt="Imagen Principal"/>
-        <h1>Conseguimos todo lo que tu empresa necesita.</h1>
+    <div class="content-empresa">
+      <section class="content-empresa__header"><img class="img-fluid" src="/images/empresaMobile.jpg" alt="Imagen Principal"/>
+        <h1><strong>CONSEGUIMOS TODO</strong> <br/> lo que tu empresa necesita.</h1>
       </section>
-      <section class="content__somos">
-        <h2>Quienes Somos </h2>
+      <section class="content-empresa__somos">
+        <h2 class="title">Quiénes Somos </h2>
         <p>Somos una Comercializadora dedicada a vincular empresas de todo tipo, gestionando y localizando productos y servicios de acuerdo a tus necesidades particulares y/o empresariales.</p>
       </section>
-      <section class="content__servicios"> <img src="" alt=""/>
-        <h2>Nuestros Servicios</h2>
-        <div class="content__servicios__items">
-          <div class="content__servicios__items__item" id="service1">
-            <p class="content__servicios__items-title">Mediación de pagos </p>
-            <p class="content__servicios__items-text">Nos encargamos de pagarle a tus proveedores, principalmente los esporádicos, los que no tienes incluidos en tu panel.</p>
+      <section class="content-empresa__servicios"> <img class="img-fluid" src="/images/serviciosMobile.jpg" alt="Imagen de un casco"/>
+        <h2>Nuestros <strong>Servicios</strong></h2>
+        <div class="content-empresa__servicios__items">
+          <div class="content-empresa__servicios__items__item" id="service1">
+            <p class="content-empresa__servicios__items__item-title"><strong>Mediación de pagos </strong></p>
+            <p class="content-empresa__servicios__items__item-text">Nos encargamos de pagarle a tus proveedores, principalmente los esporádicos, los que no tienes incluidos en tu panel.</p>
           </div>
-          <div class="content__servicios__items__item" id="service2">
-            <p class="content__servicios__items-title">¿Necesitas algo? <strong>LO ENCONTRAMOS POR TI</strong></p>
-            <p class="content__servicios__items-text"><strong>AHORRA TIEMPO VALIOSO</strong> Déjanos la busqueda de los productos o servicios que necesitas, podemos ofrecerte las mejores opciones. <strong>Al final tú decides.</strong></p>
+          <div class="content-empresa__servicios__items__item" id="service2">
+            <p class="content-empresa__servicios__items__item-title">¿Necesitas algo? <br/> <strong>LO ENCONTRAMOS POR TI</strong></p>
+            <p class="content-empresa__servicios__items__item-text"><strong>Ahorra tiempo valioso.</strong> Déjanos la busqueda de los productos o servicios que necesitas, podemos ofrecerte las mejores opciones. <br/> <strong>Al final tú decides.</strong></p>
           </div>
-          <div class="content__servicios__items__item" id="service3">
-            <p class="content__servicios__items-title"><strong>Organizamos tu evento</strong> Corporativo o Social</p>
-            <p class="content__servicios__items-text"><strong>Que la experiencia de tus invitados sea inolvidable.</strong> Nosotros nos encargamos de toda la organización.</p>
+          <div class="content-empresa__servicios__items__item" id="service3">
+            <p class="content-empresa__servicios__items__item-title"><strong>Organizamos tu evento</strong> Corporativo o Social</p>
+            <p class="content-empresa__servicios__items__item-text"><strong>Que la experiencia de tus invitados sea inolvidable.</strong> Nosotros nos encargamos de toda la organización.</p>
           </div>
         </div>
       </section>
-      <section class="content__banner"><img src="" alt="Imagen de hombre sonriendo"/>
-        <p>Ofreciendo soluciones </p>
-        <p>DESDE </p>
-        <p>2013 </p>
+      <section class="content-empresa__banner"><img class="img-fluid" src="/images/solucionesMobile.jpg" alt="Imagen de hombre sonriendo"/>
+        <div class="content-empresa__banner-text">
+          <p>Ofreciendo soluciones </p>
+          <h2>DESDE <br/> <strong>2013</strong> </h2>
+        </div>
       </section>
     </div>
     <footer>
       <div class="footer__header">
         <div class="footer__header__phone"> <img src="/images/icons/iconmonstr-smartphone-3.svg" alt="Icono de un teléfono"/>
-          <p>+52 (449) 166 6725</p>
-          <P>+52 (449) 111 2476</P>
+          <p id="phone1">+52 (449) 166 6725</p>
+          <P id="phone2">+52 (449) 111 2476</P>
         </div>
-        <div class="footer_header__email"> <img src="/images/icons/iconmonstr-email-10.svg" alt="Icono de un email"/>
+        <div class="footer__header__email"> <img src="/images/icons/iconmonstr-email-10.svg" alt="Icono de un email"/>
           <p>contacto@aesolution.mx</p>
         </div>
       </div>
       <div class="footer__body">
         <div class="footer__body__emailContact">
           <h2>¿Quieres más información?</h2>
+          <p>Déjanos tu email</p>
           <form action="POST">
-            <label for="email"></label>
-            <input type="text" name="email" placeholder="Email"/>
+            <input type="email" name="email" placeholder="Email"/>
             <button type="submit">Enviar</button>
           </form>
         </div>

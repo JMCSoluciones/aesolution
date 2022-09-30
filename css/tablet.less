@@ -1,0 +1,143 @@
+@import "globals.less";
+@import "variables.less";
+
+#slide1Content h1 {
+    width: 100%;
+}
+#slide1Content h1 strong{
+    font-size: 4.4rem;
+}
+#slide2Content{
+    width: 100%;
+    left: 0;
+    padding: 40px;
+    p{
+        font-size: 2.8rem;
+    }
+}
+#slide3Content{
+    width: 40%;
+    left: 40px;
+}
+
+.slideContent{
+    &__box{
+        top: 20%;
+        left: 30px;
+        &__link{
+            display: flex;
+            a{
+                font-size: 2.2rem;
+            }
+        }
+    }
+}
+.content{
+    &__proveedores{
+        margin: 60px auto;
+        #subtitle{
+            margin: 40px 0 80px 0;
+        }
+        &__ayudamos{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            p{
+                max-width: 430px;
+            }
+            &__link{
+                right: 30px;
+                border-radius: 20px;
+            }
+        }
+    }
+    &__beneficios{
+        &__items{
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 40px auto;
+            justify-content: center;
+            gap: 40px;
+
+
+            &__item{
+                width: 300px;
+            }
+
+        }
+    }
+    &__casosExito{
+       
+        &__logos{
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+    }
+}
+.content-empresa{
+    &__header{
+        h1{
+            top: 120px;
+        }
+    }
+}
+
+footer{
+    .footer__header{
+        background-color: @color-secondary;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+        width: 100%;
+        gap: 50px;
+        padding: 10px;
+        &__phone{
+            margin: 0;
+            p{
+                color: @color-white;
+                margin-left: 20px;
+            }
+        }
+        &__email{
+            img{
+                width: 35px;
+                margin-right: 20px;
+            }
+        }
+    }
+    .footer__body{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "email address"
+                             "links social";
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        &__emailContact{
+            text-align: left;
+            grid-area: email;
+            h2{
+                margin: 10px 0;
+            }
+        }
+        &__links{
+            grid-area: links;
+            text-align: left;
+            margin: 0;
+            ul{
+                li{
+                    margin: 10px 15px;
+                }
+            }
+        }
+        &__address{
+            grid-area: address;
+        }
+        &__socialLinks{
+            grid-area: social;
+        }
+    }
+}

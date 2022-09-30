@@ -1,7 +1,9 @@
 footer
     .footer__header
-        .footer__header__phone 
-            img(src="/images/icons/iconmonstr-smartphone-3.svg" alt="Icono de un teléfono")
+        .footer__header__phone
+            picture        
+                source(media="(min-width:768px)" srcset="/images/icons/iconmonstr-smartphone-4.svg")
+                img(src="/images/icons/iconmonstr-smartphone-3.svg" alt="Icono de un teléfono")
             p#phone1 +52 (449) 166 6725
             P#phone2 +52 (449) 111 2476
         .footer__header__email 
@@ -12,7 +14,6 @@ footer
             h2 ¿Quieres más información?
             p Déjanos tu email
             form(action="POST")
-                
                 input(type="email", name="email", placeholder="Email")
                 button(type="submit") Enviar
         .footer__body__links 

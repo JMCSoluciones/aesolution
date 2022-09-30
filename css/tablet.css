@@ -1,0 +1,169 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Inter', sans-serif !important;
+}
+.hidden {
+  display: none !important;
+}
+#slide1Content h1 {
+  width: 100%;
+}
+#slide1Content h1 strong {
+  font-size: 4.4rem;
+}
+#slide2Content {
+  width: 100%;
+  left: 0;
+  padding: 40px;
+}
+#slide2Content p {
+  font-size: 2.8rem;
+}
+#slide3Content {
+  width: 40%;
+  left: 40px;
+}
+.slideContent__box {
+  top: 20%;
+  left: 30px;
+}
+.slideContent__box__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.slideContent__box__link a {
+  font-size: 2.2rem;
+}
+.content__proveedores {
+  margin: 60px auto;
+}
+.content__proveedores #subtitle {
+  margin: 40px 0 80px 0;
+}
+.content__proveedores__ayudamos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.content__proveedores__ayudamos p {
+  max-width: 430px;
+}
+.content__proveedores__ayudamos__link {
+  right: 30px;
+  border-radius: 20px;
+}
+.content__beneficios__items {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 40px auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 40px;
+}
+.content__beneficios__items__item {
+  width: 300px;
+}
+.content__casosExito__logos {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+}
+.content-empresa__header h1 {
+  top: 120px;
+}
+footer .footer__header {
+  background-color: #f8c000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px auto;
+  width: 100%;
+  gap: 50px;
+  padding: 10px;
+}
+footer .footer__header__phone {
+  margin: 0;
+}
+footer .footer__header__phone p {
+  color: #ffffff;
+  margin-left: 20px;
+}
+footer .footer__header__email img {
+  width: 35px;
+  margin-right: 20px;
+}
+footer .footer__body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 20px 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 20px 1fr;
+  grid-template-rows: 1fr 1fr;
+      grid-template-areas: "email address" "links social";
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .footer__body__emailContact {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  text-align: left;
+  grid-area: email;
+}
+footer .footer__body__emailContact h2 {
+  margin: 10px 0;
+}
+footer .footer__body__links {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: links;
+  text-align: left;
+  margin: 0;
+}
+footer .footer__body__links ul li {
+  margin: 10px 15px;
+}
+footer .footer__body__address {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: address;
+}
+footer .footer__body__socialLinks {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: social;
+}

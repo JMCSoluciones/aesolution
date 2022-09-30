@@ -2,7 +2,9 @@ extend ../components/template.pug
 block content
     .content-empresa
         section.content-empresa__header
-            img(src="/images/empresaMobile.jpg", alt="Imagen Principal").img-fluid
+            picture
+                source(media="(min-width: 768px )", srcset="/images/empresaTablet.jpg")
+                img(src="/images/empresaMobile.jpg", alt="Imagen Principal").img-fluid
             h1 #[strong CONSEGUIMOS TODO] #[br] lo que tu empresa necesita.
         section.content-empresa__somos
             h2.title Quiénes Somos 

@@ -228,7 +228,7 @@
         position: relative;
         h2{
             position: absolute;
-            top: 40px;
+            top: 60px;
             color: @color-white;
             font-size: 3.2rem;
             width: 100%;
@@ -352,13 +352,53 @@
         }
     }
     &__box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         &__iframe{
-            iframe{
-                margin: 30px;
+            margin: 40px auto;
+        }
+        &__formSchedule{
+            &__schedule{
 
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                margin: 80px auto;
+                justify-content: center;
+                align-items: center;
+                h2{
+                    text-align: center;
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                }
+                &__days{
+                    display: flex;
+                    flex-direction: column;
+                    &__day{
+                        display: flex;
+                        justify-content: space-between;
+                        flex-direction: row;
+                        align-items: center;
+                        font-size: 1.4rem;
+                        gap: 10px;
+                        margin: 5px;
+                        &-name{
+                            font-weight: 600;
+                            margin: 0 20px;
+                        }
+                        &-hour{
+                            margin-bottom: 0;
+                            text-align: center;
+        
+                        }
+                    }
+                }
             }
         }
     }
+   
 }
 footer{
     display: flex;

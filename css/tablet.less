@@ -81,6 +81,106 @@
             top: 120px;
         }
     }
+    &__somos{
+        text-align: center;
+        margin: 40px;
+    }
+    &__servicios{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            margin-bottom: 100px;
+
+        }
+        h2{
+            top: 269px;
+            color: #ffffff;
+            font-size: 3.2rem;
+            width: 40%;
+            height: 143px;
+            background-color: rgba(60, 81, 112, 1);
+            border-radius: 20px;
+        }
+        &__items{
+            margin: 80px auto;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            &__item{
+                width: 233px;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 20px;
+                height: 390px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                
+                &-title{
+                   height: 60px;
+                   border-bottom: none;
+                   margin: 10px;
+                }
+                &-text{
+                    height: 130px;
+                    border-top: 4px solid @color-secondary;
+                    padding-top: 10px;
+                    margin: 0 10px 20px 10px;
+                }
+
+               
+            }
+        }
+    }
+    &__banner{
+        margin: 80px auto;
+    }
+}
+.contacto{
+    .section__header{
+        &-content{
+            &-text{
+                width: 320px;
+                top: 106px;
+                left: 68px;
+                border-radius: 20px 0 20px 10px;
+            }
+        }
+    }
+    &__txt{
+        p{
+            font-size: 3.6rem;
+        }
+        h3{
+            font-size: 3.6rem;
+        }
+    }
+    &__box{
+        margin: 40px;
+        &__iframe{
+            iframe{
+                width: 665px;
+                height: 248px;
+                border: 0;
+               
+            }
+
+        }
+        &__formShedule{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            &__formShedule-form{
+
+            }
+            &__formSchedule__schedule{
+
+            }
+        }
+    }
 }
 
 footer{

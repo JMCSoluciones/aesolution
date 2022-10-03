@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 1024px)"/>
     <link rel="stylesheet" href="css/menu.css"/>
     <link rel="stylesheet" href="css/form.css"/>
+    <link rel="stylesheet" href="css/animations.css"/>
     <link rel="shortcut icon" href="images/favIcon.png"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous"/>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -41,37 +42,37 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <picture class="carousel-item__img">
-              <source media="(min-width:1110px)" srcset="images/slidePallets-1920x466.jpg"/>
-              <source media="(min-width:768px)" srcset="/images/indexTablet.jpg"/><img class="d-block w-100" src="/images/indexMobile.jpg" alt="Imagen de mujer con blusa amarilla"/>
+              <source media="(min-width:1110px)" srcset="images/indexDesktop.jpg"/>
+              <source media="(min-width:768px)" srcset="images/indexTablet.jpg"/><img class="d-block w-100" src="images/indexMobile.jpg" alt="Imagen de mujer con blusa amarilla"/>
             </picture>
             <div class="slideContent">
               <div class="slideContent__box" id="slide1Content">
-                <h1><strong>Financiamos</strong> <br/> todas tus operaciones </h1>
-                <div class="slideContent__box__link"><a href="/empresa.html">Más información</a><img src="/images/icons/iconmonstr-arrow-67.svg" alt="Icono de flecha"/></div>
+                <h1 class="slideUp"><strong>Financiamos</strong> <br/> todas tus operaciones </h1>
+                <div class="slideContent__box__link"><a href="/empresa.html">Más información</a><img src="images/icons/iconmonstr-arrow-67.svg" alt="Icono de flecha"/></div>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <picture class="carousel-item__img">
-              <source media="(min-width:1110px)" srcset="images/slidePallets-1920x466.jpg"/>
-              <source media="(min-width:768px)" srcset="/images/empresaTablet.jpg"/><img class="d-block w-100" src="/images/empresaMobile.jpg" alt="Imagen de un montacargas"/>
+              <source media="(min-width:1110px)" srcset="images/empresaDesktop.jpg"/>
+              <source media="(min-width:768px)" srcset="images/empresaTablet.jpg"/><img class="d-block w-100" src="images/empresaMobile.jpg" alt="Imagen de un montacargas"/>
             </picture>
             <div class="slideContent">
               <div class="slideContent__box" id="slide2Content">
                 <p><strong>CONSEGUIMOS TODO</strong> <br/> lo que tu empresa <br/> necesita  </p>
-                <div class="slideContent__box__link" id="linkEmpresa"><a href="/empresa.html">Nuestros Servicios</a><img src="/images/icons/iconmonstr-arrow-67.svg" alt="Icono de flecha"/></div>
+                <div class="slideContent__box__link" id="linkEmpresa"><a href="/empresa.html">Nuestros Servicios</a><img src="images/icons/iconmonstr-arrow-67.svg" alt="Icono de flecha"/></div>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <picture class="carousel-item__img">
-              <source media="(min-width:1110px)" srcset="images/slidePallets-1920x466.jpg"/>
-              <source media="(min-width:768px)" srcset="/images/contactoTablet.jpg"/><img class="d-block w-100" src="/images/contactoMobile.jpg" alt="Imagen rompecabezas"/>
+              <source media="(min-width:1110px)" srcset="images/contactoDesktop.jpg"/>
+              <source media="(min-width:768px)" srcset="images/contactoTablet.jpg"/><img class="d-block w-100" src="images/contactoMobile.jpg" alt="Imagen rompecabezas"/>
             </picture>
             <div class="slideContent">
               <div class="slideContent__box" id="slide3Content">
                 <p>Hagamos <br/>  <strong>SINERGIA</strong></p>
-                <div class="slideContent__box__link"><a href="/contacto.html">Contáctanos</a><img src="/images/icons/iconmonstr-arrow-67.svg" alt="Icono de flecha"/></div>
+                <div class="slideContent__box__link"><a href="/contacto.html">Contáctanos</a><img src="images/icons/iconmonstr-arrow-67.svg" alt="Icono de flecha"/></div>
               </div>
             </div>
           </div>
@@ -81,44 +82,44 @@
       </section>
       <section class="content__proveedores"> 
         <h2 class="title">¿Proveedores?</h2>
-        <p id="subtitle"><strong>Nosotros nos encargamos</strong></p>
+        <p class="slideLeft" id="subtitle"><strong>Nosotros nos encargamos</strong></p>
         <div class="content__proveedores__ayudamos"> 
           <p><strong>Te ayudamos</strong> con la mediación de pago a tus <strong>proveedores de uso único o esporádicos,</strong> abastecimiento de servicios, productos y mucho más...</p>
-          <div class="content__proveedores__ayudamos__link"><a href="/contacto.html">Contáctanos</a><img src="/images/icons/iconmonstr-arrow-67.svg" alt="ícono de flecha"/></div>
+          <div class="content__proveedores__ayudamos__link"><a href="/contacto.html">Contáctanos</a><img src="images/icons/iconmonstr-arrow-67.svg" alt="ícono de flecha"/></div>
         </div>
       </section>
       <section class="content__beneficios"> 
-        <h2><strong>Beneficios</strong></h2>
+        <h2 class="title slideUp"><strong>Beneficios</strong></h2>
         <div class="content__beneficios__items">
-          <div class="content__beneficios__items__item"> <img src="/images/icons/iconmonstr-marketing-2.svg" alt=""/>
+          <div class="content__beneficios__items__item"> <img src="images/icons/iconmonstr-marketing-2.svg" alt=""/>
             <p class="content__beneficios__items__item-title">Centralizamos soluciones </p>
             <p class="content__beneficios__items__item-txt">Todas tus operaciones con un solo proveedor.</p>
           </div>
-          <div class="content__beneficios__items__item"> <img src="/images/icons/iconmonstr-delivery-5.svg"/>
+          <div class="content__beneficios__items__item"> <img src="images/icons/iconmonstr-delivery-5.svg"/>
             <p class="content__beneficios__items__item-title">Entregamos a domicilio </p>
             <p class="content__beneficios__items__item-txt">Olvídate de las molestas recolecciones, nosotros te lo llevamos.</p>
           </div>
-          <div class="content__beneficios__items__item"> <img src="/images/icons/iconmonstr-credit-card-10.svg" alt=""/>
+          <div class="content__beneficios__items__item"> <img src="images/icons/iconmonstr-credit-card-10.svg" alt=""/>
             <p class="content__beneficios__items__item-title">Realizamos los pagos </p>
             <p class="content__beneficios__items__item-txt">Déjanos a nosotros el pago de los servicios, productos o proveedores que tú necesitas. </p>
           </div>
-          <div class="content__beneficios__items__item"> <img src="/images/icons/iconmonstr-coin-10.svg" alt=""/>
+          <div class="content__beneficios__items__item"> <img src="images/icons/iconmonstr-coin-10.svg" alt=""/>
             <p class="content__beneficios__items__item-title">Pagos en diferentes divisas </p>
             <p class="content__beneficios__items__item-txt">Podemos realizar los pagos en diferentes monedas.</p>
           </div>
-          <div class="content__beneficios__items__item"> <img src="/images/icons/iconmonstr-delivery-8.svg" alt=""/>
+          <div class="content__beneficios__items__item"> <img src="images/icons/iconmonstr-delivery-8.svg" alt=""/>
             <p class="content__beneficios__items__item-title">Atención personalizada </p>
             <p class="content__beneficios__items__item-txt">Nos empeñamos en entender tu necesidad, es por eso que debemos manejarla con el cuidado necesario. Te atendemos personalmente y te ofrecemos soluciones puntuales. </p>
           </div>
-          <div class="content__beneficios__items__item"> <img src="/images/icons/iconmonstr-delivery-9.svg" alt=""/>
+          <div class="content__beneficios__items__item"> <img src="images/icons/iconmonstr-delivery-9.svg" alt=""/>
             <p class="content__beneficios__items__item-title">Estamos contigo 24/7 </p>
             <p class="content__beneficios__items__item-txt">Si tienes una urgencia, nosotros te ayudamos. Ofrecemos soluciones rápidas y garantizadas.</p>
           </div>
         </div>
       </section>
       <section class="content__casosExito"> 
-        <h2 class="title">Casos de éxito </h2>
-        <div class="content__casosExito__logos"> <img src="/images/logotipos/Marelli.jpg" alt="Logotipo de Marelli"/><img src="/images/logotipos/exedy.jpg" alt="Logotipo de Exedy"/><img src="/images/logotipos/PPG.jpg" alt="Logotipo de PPG"/><img src="/images/logotipos/Eaton.jpg" alt="Logotipo de Eaton"/><img src="/images/logotipos/uaa-logo.jpg" alt="Logotipo de la UAA"/><img src="/images/logotipos/logoAgsGob.jpg" alt="Logotipo del gobierno del Edo. de Ags."/><img src="/images/logotipos/ayuntamientoAgs.jpg" alt="Logotipo del Ayuntamiento de la Ciudad de Ags."/></div>
+        <h2 class="title slideLeft">Casos de éxito </h2>
+        <div class="content__casosExito__logos"> <img src="images/logotipos/Marelli.jpg" alt="Logotipo de Marelli"/><img src="images/logotipos/exedy.jpg" alt="Logotipo de Exedy"/><img src="images/logotipos/PPG.jpg" alt="Logotipo de PPG"/><img src="images/logotipos/Eaton.jpg" alt="Logotipo de Eaton"/><img src="images/logotipos/uaa-logo.jpg" alt="Logotipo de la UAA"/><img src="images/logotipos/logoAgsGob.jpg" alt="Logotipo del gobierno del Edo. de Ags."/><img src="images/logotipos/ayuntamientoAgs.jpg" alt="Logotipo del Ayuntamiento de la Ciudad de Ags."/></div>
       </section>
     </div>
     <footer>
@@ -152,7 +153,7 @@
             <li><a href="/aviso.html">Aviso de Privacidad</a></li>
           </ul>
         </div>
-        <div class="footer__body__address"> <img src="/images/icons/iconmonstr-location-25.svg" alt="Icono de un mapa con locación"/>
+        <div class="footer__body__address"> <img class="hatch" src="/images/icons/iconmonstr-location-25.svg" alt="Icono de un mapa con locación"/>
           <p>JOSÉ CHAVOLLO 203 B COL. LÓPEZ MATEOS SALTO DE SALADO. C.P. 47268 SALTO DE LOS SALADO, AGS.</p>
         </div>
         <div class="footer__body__socialLinks">
@@ -172,5 +173,6 @@
       </div>
     </footer>
     <script src="js/app-dist.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
   </body>
 </html>

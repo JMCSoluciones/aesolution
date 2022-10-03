@@ -13,17 +13,27 @@ body {
 .hidden {
   display: none !important;
 }
-.contacto__form {
+.contacto__box__formShedule-form {
   font-family: 'Inter', sans-serif !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.contacto__form .form {
+.contacto__box__formShedule-form .form {
   width: 375px;
   max-width: 400px;
   margin: 0;
-  padding: 3.5em 1.5em;
+  padding: 1em 1em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,20 +44,20 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-.contacto__form .form__title {
+.contacto__box__formShedule-form .form__title {
   text-align: center;
   font-size: 1.9rem;
   margin-bottom: 0.4em;
   color: #ffffff;
 }
-.contacto__form .form__container {
+.contacto__box__formShedule-form .form__container {
   width: 100%;
   display: -ms-grid;
   display: grid;
   gap: 1em;
   grid-auto-columns: 100%;
 }
-.contacto__form .form__container__input {
+.contacto__box__formShedule-form .form__container__input {
   font-family: inherit;
   font-size: 1rem;
   padding: 0.8em 1em;
@@ -57,13 +67,13 @@ body {
   border-radius: 1rem;
   width: 275px;
 }
-.contacto__form .form__container__input--message {
+.contacto__box__formShedule-form .form__container__input--message {
   resize: none;
   padding: 1.8em 1em;
   margin-bottom: 0.5em;
   height: 235px;
 }
-.contacto__form .form__container__cta {
+.contacto__box__formShedule-form .form__container__cta {
   font-family: inherit;
   background-color: #34495e;
   color: #ffffff;

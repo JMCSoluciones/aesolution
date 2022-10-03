@@ -95,6 +95,116 @@ body {
 .content-empresa__header h1 {
   top: 120px;
 }
+.content-empresa__somos {
+  text-align: center;
+  margin: 40px;
+}
+.content-empresa__servicios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.content-empresa__servicios img {
+  margin-bottom: 100px;
+}
+.content-empresa__servicios h2 {
+  top: 269px;
+  color: #ffffff;
+  font-size: 3.2rem;
+  width: 40%;
+  height: 143px;
+  background-color: #3c5170;
+  border-radius: 20px;
+}
+.content-empresa__servicios__items {
+  margin: 80px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.content-empresa__servicios__items__item {
+  width: 233px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  height: 390px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.content-empresa__servicios__items__item-title {
+  height: 60px;
+  border-bottom: none;
+  margin: 10px;
+}
+.content-empresa__servicios__items__item-text {
+  height: 130px;
+  border-top: 4px solid #f8c000;
+  padding-top: 10px;
+  margin: 0 10px 20px 10px;
+}
+.content-empresa__banner {
+  margin: 80px auto;
+}
+.contacto .section__header-content-text {
+  width: 320px;
+  top: 106px;
+  left: 68px;
+  border-radius: 20px 0 20px 10px;
+}
+.contacto__txt p {
+  font-size: 3.6rem;
+}
+.contacto__txt h3 {
+  font-size: 3.6rem;
+}
+.contacto__box {
+  margin: 40px;
+}
+.contacto__box__iframe iframe {
+  width: 665px;
+  height: 248px;
+  border: 0;
+}
+.contacto__box__formShedule {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
 footer .footer__header {
   background-color: #f8c000;
   display: -webkit-box;

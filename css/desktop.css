@@ -13,3 +13,200 @@ body {
 .hidden {
   display: none !important;
 }
+header {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+#slide1Content {
+  width: 500px;
+  left: 125px;
+  top: 70px;
+}
+#slide1Content h1 {
+  font-weight: 200;
+  font-size: 4.4rem;
+}
+#slide1Content h1 strong {
+  font-size: 6.4rem;
+  font-weight: 600;
+}
+#slide2Content {
+  top: 0;
+  left: 150px;
+  width: 450px;
+  height: 100%;
+  background-color: rgba(60, 81, 112, 0.8);
+}
+#slide2Content p {
+  line-height: 4rem;
+}
+#slide3Content {
+  top: 0;
+  left: 150px;
+  width: 450px;
+  height: 100%;
+  background-color: rgba(60, 81, 112, 0.8);
+}
+#slide3Content p {
+  line-height: 4rem;
+  font-weight: 200;
+}
+#slide3Content p strong {
+  font-size: 6.6rem;
+  font-weight: 600;
+}
+.slideContent__box__link:hover {
+  width: 250px;
+  padding: 0px 10px;
+  border-radius: 40px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.slideContent__box__link a:hover {
+  color: #f8c000;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.slideContent__box__link:not(:hover) {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.content__proveedores {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.content__proveedores__ayudamos {
+  height: 379px;
+}
+.content__proveedores__ayudamos__link {
+  right: 100px;
+}
+.content__proveedores__ayudamos__link a:hover {
+  color: #f8c000;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.content__beneficios {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.content__casosExito {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.content__casosExito__logos {
+  margin: 40px 200px;
+}
+.content-empresa__header h1 {
+  height: 100%;
+  top: 0;
+  left: 100px;
+  width: 600px;
+  font-size: 5rem;
+  font-weight: 200;
+}
+.content-empresa__header h1 strong {
+  font-size: 7rem;
+}
+.content-empresa__somos {
+  max-width: 1110px;
+  margin: 40px auto;
+}
+.content-empresa__somos p {
+  padding: 30px 80px;
+  font-size: 3rem;
+}
+.content-empresa__servicios {
+  max-width: 1110px;
+  margin: 30px auto;
+}
+.content-empresa__servicios h2 {
+  top: 403px;
+}
+.content-empresa__servicios__items__item {
+  width: 300px;
+}
+.content-empresa__banner {
+  max-width: 1110px;
+  margin: 40px auto;
+}
+.content-empresa__banner-text {
+  left: 70px;
+  top: 170px;
+}
+.content-empresa__banner-text p {
+  font-size: 5rem;
+  line-height: 5.5rem;
+  font-weight: 200;
+}
+.content-empresa__banner-text h2 {
+  margin: 20px;
+  font-size: 12rem;
+  line-height: 11rem;
+}
+.content-empresa__banner-text h2 strong {
+  font-size: 14rem;
+  opacity: 1;
+}
+.contacto .section__header-content-text {
+  height: 100%;
+  top: 0;
+  left: 200px;
+  border-radius: 0;
+  padding-top: 125px;
+  width: 500px;
+}
+.contacto .section__header-content-text p {
+  font-size: 6rem;
+  line-height: 8rem;
+}
+.contacto .section__header-content-text p strong {
+  font-size: 8rem;
+}
+.contacto__txt {
+  max-width: 1110px;
+  margin: 20px auto;
+}
+.contacto__box {
+  max-width: 1110px;
+  margin: 20px auto;
+}
+.contacto__box__formSchedule {
+  width: 1110px;
+  margin: 20px auto;
+}
+footer {
+  background-color: #34495e;
+}
+footer .footer__body {
+  max-width: 1310px;
+  margin: 30px auto;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+      grid-template-areas: "info links address social";
+}
+footer .footer__body__emailContact {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: info;
+}
+footer .footer__body__links {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: links;
+}
+footer .footer__body__links h3 {
+  border-bottom: none;
+}
+footer .footer__body__address {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: address;
+}
+footer .footer__body__social {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: social;
+}

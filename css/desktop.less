@@ -1,2 +1,200 @@
 @import "globals.less";
 @import "variables.less";
+header{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+#slide1Content{
+    width: 500px;
+    left: 125px;
+    top: 70px;
+    h1{
+        font-weight: 200;
+        font-size: 4.4rem;
+        strong{
+        font-size: 6.4rem;
+        font-weight: 600;
+        }
+    }
+}
+#slide2Content{
+    top: 0;
+    left: 150px;
+    width: 450px;
+    height: 100%;
+    background-color: rgba(60, 81, 112, .8);
+    p{
+        line-height: 4rem;
+    }
+}
+#slide3Content{
+    top: 0;
+    left: 150px;
+    width: 450px;
+    height: 100%;
+    background-color: rgba(60, 81, 112, .8);
+    p{
+        line-height: 4rem;
+        font-weight: 200;
+        strong{
+            font-size: 6.6rem;
+            font-weight: 600;
+        }
+    }
+}
+.slideContent__box__link{
+
+}
+.slideContent__box__link:hover{
+    //background-color: @color-white;
+    width: 250px;
+    padding: 0px 10px;
+    border-radius: 40px;
+    transition: 0.3s;
+}
+.slideContent__box__link a:hover{
+    color: @color-secondary;
+    transition: 0.3s;
+}
+.slideContent__box__link:not(:hover){
+    transition: 0.3s;
+}
+.content__proveedores{
+    max-width: 1110px;
+    margin: 0 auto;
+    &__ayudamos{
+        height: 379px;
+        &__link{
+            right: 100px;
+            a:hover{
+                color: @color-secondary;
+                transition: 0.3s;
+            }
+        }
+
+
+    }
+}
+.content__beneficios{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.content__casosExito{
+    max-width: 1110px;
+    margin: 0 auto;
+    &__logos{
+        margin: 40px 200px;
+    }
+}
+.content-empresa{
+    &__header{
+        h1{
+            height: 100%;
+            top: 0;
+            left: 100px;
+            width: 600px;
+            font-size: 5rem;
+            font-weight: 200;
+            strong{
+                font-size: 7rem;
+            }
+        }
+    }
+    &__somos{
+        max-width: 1110px;
+        margin: 40px auto;
+        p{
+            padding: 30px 80px;
+            font-size: 3.0rem;
+        }
+    }
+    &__servicios{
+        max-width: 1110px;
+        margin: 30px auto;
+        h2{
+           top: 403px; 
+        }
+        &__items{
+            &__item{
+                width: 300px;
+            }
+        }
+    }
+    &__banner{
+        max-width: 1110px;
+        margin: 40px auto;
+        &-text{
+            left: 70px;
+            top: 170px;
+            p{
+                font-size: 5rem;
+                line-height: 5.5rem;
+                font-weight: 200;
+                
+            }
+            h2{
+                margin: 20px;
+                font-size: 12rem;
+                line-height: 11rem;
+                strong{
+                    font-size: 14rem;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+.contacto{
+    .section__header-content-text{
+        height: 100%;
+        top: 0;
+        left: 200px;
+        border-radius: 0;
+        padding-top: 125px;
+        width: 500px;
+        p{
+            font-size: 6rem;
+            line-height: 8rem;
+            strong{
+                font-size: 8rem;
+            }
+        }
+    }
+    &__txt{
+        max-width: 1110px;
+        margin: 20px auto;
+    }
+    &__box{
+        max-width: 1110px;
+        margin: 20px auto;
+        &__formSchedule{
+            width: 1110px;
+            margin: 20px auto;
+        }
+    }
+}
+footer{
+    background-color: @color-primary;
+    .footer__body{
+        max-width: 1310px;
+        margin: 30px auto;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "info links address social";
+        &__emailContact{
+            grid-area: info;
+        }
+        &__links{
+            grid-area: links;
+            h3{
+                border-bottom: none;
+            }
+        }
+        &__address{
+            grid-area: address;
+        }
+        &__social{
+            grid-area: social;
+        }
+    }
+}

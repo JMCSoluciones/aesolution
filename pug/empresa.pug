@@ -3,18 +3,21 @@ block content
     .content-empresa
         section.content-empresa__header
             picture
-                source(media="(min-width: 768px )", srcset="/images/empresaTablet.jpg")
-                img(src="/images/empresaMobile.jpg", alt="Imagen Principal").img-fluid
-            h1 #[strong CONSEGUIMOS TODO] #[br] lo que tu empresa necesita.
+                source(media="(min-width: 1110px )", srcset="images/empresaDesktop.jpg")
+                source(media="(min-width: 768px )", srcset="images/empresaTablet.jpg")
+                img(src="images/empresaMobile.jpg", alt="Imagen Principal").img-fluid
+            h1.slideUp #[strong CONSEGUIMOS TODO] #[br] lo que tu empresa necesita.
         section.content-empresa__somos
             h2.title Quiénes Somos 
             p Somos una Comercializadora dedicada a vincular empresas de todo tipo, gestionando y localizando productos y servicios de acuerdo a tus necesidades particulares y/o empresariales.
-        section.content-empresa__servicios  
-            img(src="/images/serviciosMobile.jpg", alt="Imagen de un casco").img-fluid
-            h2 Nuestros #[strong Servicios]
+        section.content-empresa__servicios
+            picture 
+                source(media="(min-width: 768px)", srcset="images/serviciosTablet.jpg")  
+                img(src="images/serviciosMobile.jpg", alt="Imagen de un casco").img-fluid
+            h2.slideLeft Nuestros #[br] #[strong Servicios]
             .content-empresa__servicios__items
                 .content-empresa__servicios__items__item#service1
-                    p.content-empresa__servicios__items__item-title #[strong Mediación de pagos ]
+                    p.content-empresa__servicios__items__item-title #[br] #[strong Mediación de pagos ]
                     p.content-empresa__servicios__items__item-text Nos encargamos de pagarle a tus proveedores, principalmente los esporádicos, los que no tienes incluidos en tu panel.
                 .content-empresa__servicios__items__item#service2
                     p.content-empresa__servicios__items__item-title ¿Necesitas algo? #[br] #[strong LO ENCONTRAMOS POR TI]
@@ -23,10 +26,12 @@ block content
                     p.content-empresa__servicios__items__item-title #[strong Organizamos tu evento] Corporativo o Social
                     p.content-empresa__servicios__items__item-text #[strong Que la experiencia de tus invitados sea inolvidable.] Nosotros nos encargamos de toda la organización.
         section.content-empresa__banner
-            img(src="/images/solucionesMobile.jpg", alt="Imagen de hombre sonriendo").img-fluid
+            picture 
+                source(media="(min-width: 768px)", srcset="images/solucionesTablet.jpg")
+                img(src="images/solucionesMobile.jpg", alt="Imagen de hombre sonriendo").img-fluid
             .content-empresa__banner-text
                 p Ofreciendo soluciones 
-                h2 DESDE #[br] #[strong 2013] 
+                h2.slideDown DESDE #[br] #[strong 2013] 
 
 
 

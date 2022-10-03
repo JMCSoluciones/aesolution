@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 1024px)"/>
     <link rel="stylesheet" href="css/menu.css"/>
     <link rel="stylesheet" href="css/form.css"/>
+    <link rel="stylesheet" href="css/animations.css"/>
     <link rel="shortcut icon" href="images/favIcon.png"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous"/>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -39,19 +40,23 @@
     <div class="content-empresa">
       <section class="content-empresa__header">
         <picture>
-          <source media="(min-width: 768px )" srcset="/images/empresaTablet.jpg"/><img class="img-fluid" src="/images/empresaMobile.jpg" alt="Imagen Principal"/>
+          <source media="(min-width: 1110px )" srcset="images/empresaDesktop.jpg"/>
+          <source media="(min-width: 768px )" srcset="images/empresaTablet.jpg"/><img class="img-fluid" src="images/empresaMobile.jpg" alt="Imagen Principal"/>
         </picture>
-        <h1><strong>CONSEGUIMOS TODO</strong> <br/> lo que tu empresa necesita.</h1>
+        <h1 class="slideUp"><strong>CONSEGUIMOS TODO</strong> <br/> lo que tu empresa necesita.</h1>
       </section>
       <section class="content-empresa__somos">
         <h2 class="title">Quiénes Somos </h2>
         <p>Somos una Comercializadora dedicada a vincular empresas de todo tipo, gestionando y localizando productos y servicios de acuerdo a tus necesidades particulares y/o empresariales.</p>
       </section>
-      <section class="content-empresa__servicios"> <img class="img-fluid" src="/images/serviciosMobile.jpg" alt="Imagen de un casco"/>
-        <h2>Nuestros <strong>Servicios</strong></h2>
+      <section class="content-empresa__servicios">
+        <picture> 
+          <source media="(min-width: 768px)" srcset="images/serviciosTablet.jpg"/><img class="img-fluid" src="images/serviciosMobile.jpg" alt="Imagen de un casco"/>
+        </picture>
+        <h2 class="slideLeft">Nuestros <br/> <strong>Servicios</strong></h2>
         <div class="content-empresa__servicios__items">
           <div class="content-empresa__servicios__items__item" id="service1">
-            <p class="content-empresa__servicios__items__item-title"><strong>Mediación de pagos </strong></p>
+            <p class="content-empresa__servicios__items__item-title"><br/> <strong>Mediación de pagos </strong></p>
             <p class="content-empresa__servicios__items__item-text">Nos encargamos de pagarle a tus proveedores, principalmente los esporádicos, los que no tienes incluidos en tu panel.</p>
           </div>
           <div class="content-empresa__servicios__items__item" id="service2">
@@ -64,10 +69,13 @@
           </div>
         </div>
       </section>
-      <section class="content-empresa__banner"><img class="img-fluid" src="/images/solucionesMobile.jpg" alt="Imagen de hombre sonriendo"/>
+      <section class="content-empresa__banner">
+        <picture> 
+          <source media="(min-width: 768px)" srcset="images/solucionesTablet.jpg"/><img class="img-fluid" src="images/solucionesMobile.jpg" alt="Imagen de hombre sonriendo"/>
+        </picture>
         <div class="content-empresa__banner-text">
           <p>Ofreciendo soluciones </p>
-          <h2>DESDE <br/> <strong>2013</strong> </h2>
+          <h2 class="slideDown">DESDE <br/> <strong>2013</strong> </h2>
         </div>
       </section>
     </div>
@@ -102,7 +110,7 @@
             <li><a href="/aviso.html">Aviso de Privacidad</a></li>
           </ul>
         </div>
-        <div class="footer__body__address"> <img src="/images/icons/iconmonstr-location-25.svg" alt="Icono de un mapa con locación"/>
+        <div class="footer__body__address"> <img class="hatch" src="/images/icons/iconmonstr-location-25.svg" alt="Icono de un mapa con locación"/>
           <p>JOSÉ CHAVOLLO 203 B COL. LÓPEZ MATEOS SALTO DE SALADO. C.P. 47268 SALTO DE LOS SALADO, AGS.</p>
         </div>
         <div class="footer__body__socialLinks">
@@ -122,5 +130,6 @@
       </div>
     </footer>
     <script src="js/app-dist.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
   </body>
 </html>

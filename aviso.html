@@ -7,12 +7,13 @@
     <title>AE Solution</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Raleway:wght@100;300;400;600;800&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600&amp;display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/tablet.css" media="screen and (min-width: 768px)"/>
     <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 1024px)"/>
     <link rel="stylesheet" href="css/menu.css"/>
     <link rel="stylesheet" href="css/form.css"/>
+    <link rel="stylesheet" href="css/animations.css"/>
     <link rel="shortcut icon" href="images/favIcon.png"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous"/>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -26,13 +27,13 @@
         <p>Bienvenido a AE Solution.</p><a class="menu-top__link" href="aviso.html">Aviso de Privacidad</a>
       </div>
       <nav class="menu"> 
-        <section class="menu__container"> <img class="menu__logo" src="/images/logotipos/LogotipoAEsolution.svg"/>
+        <section class="menu__container"> <img class="menu__logo" src="images/logotipos/LogotipoAEsolution.svg"/>
           <ul class="menu__links"> 
             <li class="menu__item"> <a class="menu__link" href="index.html">Inicio</a></li>
             <li class="menu__item"> <a class="menu__link" href="empresa.html">Empresa</a></li>
             <li class="menu__item"> <a class="menu__link" href="contacto.html">Contacto</a></li>
           </ul>
-          <div class="menu__hamburger"> <img class="menu__img" src="/images/icons/iconmonstr-menu-right-lined.svg" alt="icono de menu"/></div>
+          <div class="menu__hamburger"> <img class="menu__img" src="images/icons/iconmonstr-menu-right-lined.svg" alt="icono de menu"/></div>
         </section>
       </nav>
     </header>
@@ -67,20 +68,23 @@
     </div>
     <footer>
       <div class="footer__header">
-        <div class="footer__header__phone"> <img src="/images/icons/iconmonstr-smartphone-3.svg" alt="Icono de un teléfono"/>
-          <p>+52 (449) 166 6725</p>
-          <P>+52 (449) 111 2476</P>
+        <div class="footer__header__phone">
+          <picture>       
+            <source media="(min-width:768px)" srcset="images/icons/iconmonstr-smartphone-4.svg"/><img src="images/icons/iconmonstr-smartphone-3.svg" alt="Icono de un teléfono"/>
+          </picture>
+          <p id="phone1">+52 (449) 166 6725</p>
+          <P id="phone2">+52 (449) 111 2476</P>
         </div>
-        <div class="footer_header__email"> <img src="/images/icons/iconmonstr-email-10.svg" alt="Icono de un email"/>
+        <div class="footer__header__email"> <img src="images/icons/iconmonstr-email-10.svg" alt="Icono de un email"/>
           <p>contacto@aesolution.mx</p>
         </div>
       </div>
       <div class="footer__body">
         <div class="footer__body__emailContact">
           <h2>¿Quieres más información?</h2>
+          <p>Déjanos tu email</p>
           <form action="POST">
-            <label for="email"></label>
-            <input type="text" name="email" placeholder="Email"/>
+            <input type="email" name="email" placeholder="Email"/>
             <button type="submit">Enviar</button>
           </form>
         </div>
@@ -93,18 +97,18 @@
             <li><a href="/aviso.html">Aviso de Privacidad</a></li>
           </ul>
         </div>
-        <div class="footer__body__address"> <img src="/images/icons/iconmonstr-location-25.svg" alt="Icono de un mapa con locación"/>
+        <div class="footer__body__address"> <img class="hatch" src="images/icons/iconmonstr-location-25.svg" alt="Icono de un mapa con locación"/>
           <p>JOSÉ CHAVOLLO 203 B COL. LÓPEZ MATEOS SALTO DE SALADO. C.P. 47268 SALTO DE LOS SALADO, AGS.</p>
         </div>
         <div class="footer__body__socialLinks">
           <div class="footer__body__socialLinks-item"> 
-            <p>Whatsapp </p><img src="/images/icons/iconmonstr-whatsapp-3.svg" alt="ícono de whatsapp"/>
+            <p>Whatsapp </p><img src="images/icons/iconmonstr-whatsapp-3.svg" alt="ícono de whatsapp"/>
           </div>
           <div class="footer__body__socialLinks-item"> 
-            <p>Síguenos </p><img src="/images/icons/iconmonstr-facebook-4.svg" alt="ícono de facebook"/>
+            <p>Síguenos </p><img src="images/icons/iconmonstr-facebook-4.svg" alt="ícono de facebook"/>
           </div>
           <div class="footer__body__socialLinks-item"> 
-            <p>Chat en Vivo </p><img src="/images/icons/iconmonstr-speech-bubble-comment-thin.svg" alt="ícono de chat"/>
+            <p>Chat en Vivo </p><img src="images/icons/iconmonstr-speech-bubble-comment-thin.svg" alt="ícono de chat"/>
           </div>
         </div>
       </div>
@@ -113,5 +117,6 @@
       </div>
     </footer>
     <script src="js/app-dist.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
   </body>
 </html>

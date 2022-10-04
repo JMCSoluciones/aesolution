@@ -504,6 +504,31 @@ body {
   margin-bottom: 0;
   text-align: center;
 }
+.privacidad__box {
+  font-size: 1.6rem;
+  padding: 20px;
+  text-align: justify;
+  color: #4F4B49;
+  display: -ms-grid;
+  display: grid;
+}
+.privacidad__box1 h1 {
+  font-weight: 600;
+  text-align: center;
+  margin: 20px auto;
+  font-size: 2.3rem;
+  color: #34495e;
+  border-bottom: 1px solid #f8c000;
+  padding-bottom: 10px;
+}
+.privacidad__box h2 {
+  text-align: center;
+  margin: 20px auto;
+  font-size: 2rem;
+  color: #34495e;
+  border-bottom: 1px solid #f8c000;
+  padding-bottom: 10px;
+}
 footer {
   display: -webkit-box;
   display: -ms-flexbox;

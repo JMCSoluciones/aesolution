@@ -175,6 +175,50 @@ header {
   width: 1110px;
   margin: 20px auto;
 }
+.privacidad__box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 20px 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto 20px auto 20px auto 20px auto;
+  grid-template-rows: repeat(4, auto);
+      grid-template-areas: "box1 box1" "box2 box3" "box4 box5" "box6 box6";
+  max-width: 1110px;
+  margin: 40px auto;
+  gap: 20px;
+}
+.privacidad__box1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: box1;
+}
+.privacidad__box2 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: box2;
+}
+.privacidad__box3 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: box3;
+}
+.privacidad__box4 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: box4;
+}
+.privacidad__box5 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+  grid-area: box5;
+}
+.privacidad__box6 {
+  -ms-grid-row: 7;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: box6;
+}
 footer {
   background-color: #34495e;
 }

@@ -49,6 +49,7 @@ body {
   color: #ffffff;
 }
 .contacto__box__formShedule-form .form__container {
+  font-size: 1.4rem;
   width: 100%;
   display: -ms-grid;
   display: grid;

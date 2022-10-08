@@ -30,8 +30,6 @@ body {
           align-items: center;
 }
 .contacto__box__formShedule-form .form {
-  width: 375px;
-  max-width: 400px;
   margin: 0;
   padding: 1em 1em;
   display: -webkit-box;
